@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="../Weather App/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
@@ -20,7 +20,7 @@
         <div class="weather-container">
             <!-- grant loaction weather container-->
             <div class=" sub-container grant-location-container">
-                <img src="../Weather App/images/location.png" width="80" height="80" loading="lazy">
+                <img src="./images/location.png" width="80" height="80" loading="lazy">
                 <p>Grant location access</p>
                 <p>Allow access to get weather information</p>
                 <button class="btn" data-grantAccess>Grant Access</button>
@@ -31,7 +31,7 @@
                 <form class="form-container" data-searchForm>
                     <input  placeholder="Search for City..." data-searchInput>
                     <button class="btn" type="submit">
-                        <img src="../Weather App/images/search.png" width="20" height="20">
+                        <img src="./images/search.png" width="20" height="20">
                     </button>
                 </form>
             
@@ -39,7 +39,7 @@
             <!-- loading screen container-->
             
             <div class=" sub-container loading-container">
-                <img src="../Weather App/images/loading.gif" width="150" height="150">
+                <img src="./images/loading.gif" width="150" height="150">
                 <p>Loading</p>
             </div>
             
@@ -64,20 +64,20 @@
                 <div class="parameter-container">
                     <!-- card 1-->
                     <div class="parameter">
-                        <img src="../Weather App/images/wind.png">
+                        <img src="./images/wind.png">
                         <p>windspeed</p>
                         <p data-windspeed></p>
                     </div>
 
                      <!-- card 2-->
                      <div class="parameter">
-                        <img src="../Weather App/images/humidity.png">
+                        <img src="./images/humidity.png">
                         <p>humidity</p>
                         <p data-humidity></p>
                     </div>
                     <!-- card 3-->
                     <div class="parameter">
-                        <img src="../Weather App/images/cloud.png">
+                        <img src="./images/cloud.png">
                         <p>cloud</p>
                         <p data-cloudiness></p>
                     </div>
@@ -91,6 +91,6 @@
     </div>
 
 
-    <script src="../Weather App/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
